@@ -1,3 +1,4 @@
-host0.example.org ansible_host=192.168.33.10 ansible_user=root
-host1.example.org ansible_host=192.168.33.11 ansible_user=root
-host2.example.org ansible_host=192.168.33.12 ansible_user=root
+[docker]
+DockerMain.example.com ansible_host=192.168.100.13 ansible_user=root
+[tomcat]
+tomcat.example.com ansible_host=192.168.100.12 ansible_user=root
